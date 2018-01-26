@@ -15,7 +15,7 @@ $ go get github.com/txthinking/socks5
 ```
 package main
 
-import "github.com/txthinking/socks5"
+import "./socks5"
 
 func main() {
 	socks5.Debug = true
